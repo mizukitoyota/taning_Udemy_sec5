@@ -10,11 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        //startボタンを押せないようにする
+        
     }
 
-
+    @IBAction func start(_ sender: Any) {
+        
+        //imageViewのimageに画像反映
+        
+        //start押すと押せなくなる
+    }
+    
+    @IBAction func stop(_ sender: Any) {
+       
+        //imageに反映されている画像の流れをストップする
+        
+        //startボタンが押せるようになる
+        
+    }
+    
 }
 
