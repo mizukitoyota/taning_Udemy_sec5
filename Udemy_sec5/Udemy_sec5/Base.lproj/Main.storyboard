@@ -41,6 +41,8 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="fKU-e6-9zj" id="mLm-ZB-Why"/>
+                        <outlet property="startButton" destination="iAp-Zv-lwX" id="dc5-qW-IMH"/>
+                        <outlet property="stopButton" destination="a7r-QJ-9WQ" id="mJc-hv-7fL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
